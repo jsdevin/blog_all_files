@@ -1,3 +1,2 @@
 # 概览
-写博客前的笔记存于**入门前端**，之后的笔记写于**进击前端**。
-最近在复习考试，博客的细节后面再弄~~
+写博客前的笔记存于[入门前端](https://github.com/jsdevin/Study-notes)，之后的笔记写于[进击前端](https://devin.ren/project/cms-vue3/)。
