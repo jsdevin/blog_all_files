@@ -1,5 +1,4 @@
 <template><div><h1 id="内置类型、typeof、类型转换、深浅拷贝" tabindex="-1"><a class="header-anchor" href="#内置类型、typeof、类型转换、深浅拷贝" aria-hidden="true">#</a> 内置类型、typeof、类型转换、深浅拷贝</h1>
-<p><img src="01.思维导图.png" alt=""></p>
 <h2 id="内置类型" tabindex="-1"><a class="header-anchor" href="#内置类型" aria-hidden="true">#</a> 内置类型</h2>
 <p>JavaScript中内置类型分为两种，基本类型和对象类型。</p>
 <ol>
