@@ -5,6 +5,8 @@ module.exports = {
   title: 'Devin\'s Blog',
   head: [['link', { rel: 'icon', href: '/img/nuddles.png' }]],
   theme: defaultTheme({
+    lastUpdated: false,
+    contributors: false,
     logo: 'https://img.tt98.com/d/file/biaoqing/20191107/12.gif',
     navbar: [
       {
