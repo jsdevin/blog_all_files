@@ -1,4 +1,5 @@
-<template><div><h1 id="项目搭建规范" tabindex="-1"><a class="header-anchor" href="#项目搭建规范" aria-hidden="true">#</a> 项目搭建规范</h1>
+<template><div><h1 id="后台管理系统" tabindex="-1"><a class="header-anchor" href="#后台管理系统" aria-hidden="true">#</a> 后台管理系统</h1>
+<h2 id="项目搭建规范" tabindex="-1"><a class="header-anchor" href="#项目搭建规范" aria-hidden="true">#</a> 项目搭建规范</h2>
 <h2 id="一-代码规范" tabindex="-1"><a class="header-anchor" href="#一-代码规范" aria-hidden="true">#</a> 一. 代码规范</h2>
 <h3 id="_1-1-集成editorconfig配置" tabindex="-1"><a class="header-anchor" href="#_1-1-集成editorconfig配置" aria-hidden="true">#</a> 1.1. 集成editorconfig配置</h3>
 <p>EditorConfig 有助于为不同 IDE 编辑器上处理同一项目的多个开发人员维护一致的编码风格。</p>

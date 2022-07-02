@@ -1,6 +1,5 @@
 const { defaultTheme } = require('@vuepress/theme-default')
-// import navbar from './public/js/navbar'
-// const navbar = require('./public/js/navbar')
+
 module.exports = {
   title: 'Devin\'s Blog',
   head: [['link', { rel: 'icon', href: '/img/nuddles.png' }]],
@@ -11,7 +10,26 @@ module.exports = {
     navbar: [
       {
         text: '入门前端',
-        link: 'https://github.com/jsdevin/Study-notes',
+        children: [
+          {
+            text: '知识库',
+            children: [
+              '/frontend/01-HTML/html笔记.md',
+              '/frontend/02-CSS/CSS总结',
+              '/frontend/02-CSS/CSS_Flex布局',
+              '/frontend/03-JS基础/JS基础扫盲',
+              '/frontend/03-JS基础/JS常见问题-ES6',
+              '/frontend/04-JS高级/第00节-JS高级目录',
+              '/frontend/05-Vue2、Vue3/vue2/Vue2概览',
+              '/frontend/05-Vue2、Vue3/vue3(基于vue2)/vue3(基于vue2学习)',
+              '/frontend/06-promise、axios、webpack、tabbar/Promise',
+              '/frontend/06-promise、axios、webpack、tabbar/axios',
+              '/frontend/06-promise、axios、webpack、tabbar/webpack',
+              '/frontend/06-promise、axios、webpack、tabbar/tabbar',
+              // '/frontend/',
+            ]
+          }
+        ]
       },
       {
         text: '进击前端',
@@ -19,21 +37,16 @@ module.exports = {
           {
             text: '项目',
             children: [
-              '/project/cms-vue3', // 用的是字面量方法，会自动将文章的标题渲染为选项标题
-              'https://baidu.com' // 测试，这里是可以放置多重子项目。
-            ],
-          },
-          {
-            text: '面试准备',
-            children: [
-              {
-                text: '面试题',
-                link: 'https://github.com/jsdevin/Front-End-Interview-Notebook'
-              },
-              '/interview' 
+              '/project/cms-vue3/01-项目搭建规范', // 用的是字面量方法，会自动将文章的标题渲染为选项标题
             ],
           },
         ],
+      },
+      {
+        text: '面试题',
+        children: [
+          '/interview/JS篇/'
+        ]
       },
       {
         text: '计算机基础',
@@ -74,7 +87,6 @@ module.exports = {
               }
             ],
           }
-         
         ],
       },
     ],
@@ -82,18 +94,31 @@ module.exports = {
       '/': [
         {
           text: '入门前端',
-          link: 'https://github.com/jsdevin/Study-notes'
+          collapsible: true,
+          children: [
+            '/frontend/01-HTML/html笔记.md',
+            '/frontend/02-CSS/CSS总结',
+            '/frontend/02-CSS/CSS_Flex布局',
+            '/frontend/03-JS基础/JS基础扫盲',
+            '/frontend/03-JS基础/JS常见问题-ES6',
+            '/frontend/04-JS高级/第00节-JS高级目录',
+            '/frontend/05-Vue2、Vue3/vue2/Vue2概览',
+            '/frontend/05-Vue2、Vue3/vue3(基于vue2)/vue3(基于vue2学习)',
+            '/frontend/06-promise、axios、webpack、tabbar/Promise',
+            '/frontend/06-promise、axios、webpack、tabbar/axios',
+            '/frontend/06-promise、axios、webpack、tabbar/webpack',
+            '/frontend/06-promise、axios、webpack、tabbar/tabbar',
+          ]
         },
         {
           text: '进击前端',
+          collapsible: true,
           children: [
             {
               text: '后台管理系统',
               collapsible: true,
-              // children: ['/reference/cli.md', '/reference/config.md'],
               children: [
                 '/project/cms-vue3/01-项目搭建规范.md', 
-                // '/project/cms-vue3/01-项目搭建规范.md', 
                 '/project/cms-vue3/02-登录页面UI实现.md',
                 '/project/cms-vue3/03-登录页面的逻辑.md',
                 '/project/cms-vue3/04-首页UI的实现',
@@ -102,46 +127,8 @@ module.exports = {
                 // '/project/cms-vue3/',
                 // '/project/cms-vue3/',
               ]
-              // children: ['https://baidu.com']
             },
-            {
-              text: 'JS手写题',
-              collapsible: true,
-              children: [
-                '/interview/JS篇/01.内置类型-typeof-类型转换-深浅拷贝.md',
-                '/interview/JS篇/02.原型-new-instanceof-this-执行上下文.md',
-                '/interview/JS篇/03.闭包-模块化-防抖-节流-继承',
-                '/interview/JS篇/04.call、apply、bind、Promise、async、await、迭代器、生成器、Proxy',
-                // '/interview/JS篇/',
-              ]
-            }
           ]
-        },
-
-      ],
-      '/project/': [
-        {
-          text: '后台管理系统',
-          collapsible: true,
-          // children: ['/reference/cli.md', '/reference/config.md'],
-          children: [
-            '/project/cms-vue3/01-项目搭建规范.md', 
-            // '/project/cms-vue3/01-项目搭建规范.md', 
-            '/project/cms-vue3/02-登录页面UI实现.md',
-            '/project/cms-vue3/03-登录页面的逻辑.md',
-            '/project/cms-vue3/04-首页UI的实现',
-            '/project/cms-vue3/动态路由',
-            '/project/cms-vue3/权限管理',
-            // '/project/cms-vue3/',
-            // '/project/cms-vue3/',
-          ]
-          // children: ['https://baidu.com']
-        },
-        {
-          text: '测试侧边栏',
-          collapsible: true,
-          // children: ['/reference/bundler/vite.md', '/reference/bundler/webpack.md'],
-          children: []
         },
       ],
       '/interview/': [
@@ -155,9 +142,8 @@ module.exports = {
             '/interview/JS篇/04.call、apply、bind、Promise、async、await、迭代器、生成器、Proxy',
             // '/interview/JS篇/',
           ]
-
         }
-      ]
+      ],
     },
   }),
 }
