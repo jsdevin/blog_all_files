@@ -16,7 +16,7 @@ cd ../distCopy/dist
 # git初始化，每次初始化不影响推送
 git init
 git add -A
-git commit -m '补充入门前端的知识'
+git commit -m '百度训练营day1&day2'
 git branch -M main
 
 # 如果你想要部署到 https://USERNAME.github.io
