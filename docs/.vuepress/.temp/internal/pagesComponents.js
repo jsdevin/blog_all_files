@@ -49,6 +49,8 @@ export const pagesComponents = {
   "v-21e9dcf4": defineAsyncComponent(() => import(/* webpackChunkName: "v-21e9dcf4" */"D:/____FrontEnd/blog_vuepress2.x/vuepress2.x/docs/.vuepress/.temp/pages/interview/JS篇/04.call、apply、bind、Promise、async、await、迭代器、生成器、Proxy.html.vue")),
   // path: /interview/JS%E7%AF%87/
   "v-fe7720e4": defineAsyncComponent(() => import(/* webpackChunkName: "v-fe7720e4" */"D:/____FrontEnd/blog_vuepress2.x/vuepress2.x/docs/.vuepress/.temp/pages/interview/JS篇/index.html.vue")),
+  // path: /project/baiduTrain/homework-day1&2/
+  "v-0df215e4": defineAsyncComponent(() => import(/* webpackChunkName: "v-0df215e4" */"D:/____FrontEnd/blog_vuepress2.x/vuepress2.x/docs/.vuepress/.temp/pages/project/baiduTrain/homework-day1&2/index.html.vue")),
   // path: /frontend/05-Vue2%E3%80%81Vue3/vue2/vue-cli.html
   "v-21d1fea5": defineAsyncComponent(() => import(/* webpackChunkName: "v-21d1fea5" */"D:/____FrontEnd/blog_vuepress2.x/vuepress2.x/docs/.vuepress/.temp/pages/frontend/05-Vue2、Vue3/vue2/vue-cli.html.vue")),
   // path: /frontend/05-Vue2%E3%80%81Vue3/vue2/vue-router.html
@@ -63,6 +65,16 @@ export const pagesComponents = {
   "v-0dddb1b4": defineAsyncComponent(() => import(/* webpackChunkName: "v-0dddb1b4" */"D:/____FrontEnd/blog_vuepress2.x/vuepress2.x/docs/.vuepress/.temp/pages/frontend/05-Vue2、Vue3/vue2/Vue常用语法和命令.html.vue")),
   // path: /frontend/05-Vue2%E3%80%81Vue3/vue3(%E5%9F%BA%E4%BA%8Evue2)/vue3(%E5%9F%BA%E4%BA%8Evue2%E5%AD%A6%E4%B9%A0).html
   "v-8fe73c26": defineAsyncComponent(() => import(/* webpackChunkName: "v-8fe73c26" */"D:/____FrontEnd/blog_vuepress2.x/vuepress2.x/docs/.vuepress/.temp/pages/frontend/05-Vue2、Vue3/vue3(基于vue2)/vue3(基于vue2学习).html.vue")),
+  // path: /project/baiduTrain/homework-day1&2/%E5%AE%9E%E7%8E%B0loading%E5%8A%A8%E7%94%BB/%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0.html
+  "v-d712fec8": defineAsyncComponent(() => import(/* webpackChunkName: "v-d712fec8" */"D:/____FrontEnd/blog_vuepress2.x/vuepress2.x/docs/.vuepress/.temp/pages/project/baiduTrain/homework-day1&2/实现loading动画/项目笔记.html.vue")),
+  // path: /project/baiduTrain/homework-day1&2/%E5%8F%98%E8%89%B2%E6%8C%89%E9%92%AE/%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0.html
+  "v-d727b4fa": defineAsyncComponent(() => import(/* webpackChunkName: "v-d727b4fa" */"D:/____FrontEnd/blog_vuepress2.x/vuepress2.x/docs/.vuepress/.temp/pages/project/baiduTrain/homework-day1&2/变色按钮/项目笔记.html.vue")),
+  // path: /project/baiduTrain/homework-day1&2/%E5%93%8D%E5%BA%94%E5%BC%8F%E8%AE%BE%E8%AE%A1demo/%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0.html
+  "v-17d4adca": defineAsyncComponent(() => import(/* webpackChunkName: "v-17d4adca" */"D:/____FrontEnd/blog_vuepress2.x/vuepress2.x/docs/.vuepress/.temp/pages/project/baiduTrain/homework-day1&2/响应式设计demo/项目笔记.html.vue")),
+  // path: /project/baiduTrain/homework-day1&2/%E7%94%A8HTML%E5%AE%9E%E7%8E%B0%E4%BF%A1%E4%BB%B6demo/%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0.html
+  "v-5cabc0a6": defineAsyncComponent(() => import(/* webpackChunkName: "v-5cabc0a6" */"D:/____FrontEnd/blog_vuepress2.x/vuepress2.x/docs/.vuepress/.temp/pages/project/baiduTrain/homework-day1&2/用HTML实现信件demo/项目笔记.html.vue")),
+  // path: /project/baiduTrain/homework-day1&2/%E8%AE%B0%E4%BA%8B%E6%9C%AC/%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0.html
+  "v-0f13c933": defineAsyncComponent(() => import(/* webpackChunkName: "v-0f13c933" */"D:/____FrontEnd/blog_vuepress2.x/vuepress2.x/docs/.vuepress/.temp/pages/project/baiduTrain/homework-day1&2/记事本/项目笔记.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"D:/____FrontEnd/blog_vuepress2.x/vuepress2.x/docs/.vuepress/.temp/pages/404.html.vue")),
 }

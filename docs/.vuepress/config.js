@@ -14,11 +14,11 @@ module.exports = {
           {
             text: '百度前端训练营',
             children: [
-              /project/baiduTrain/homework-day1&2/用HTML实现信件demo/项目笔记.md,
-              /project/baiduTrain/homework-day1&2/实现loading动画/项目笔记.md,
-              /project/baiduTrain/homework-day1&2/记事本/项目笔记.md,
-              /project/baiduTrain/homework-day1&2/响应式设计demo/项目笔记.md,
-              /project/baiduTrain/homework-day1&2//项目笔记.md,
+              '/project/baiduTrain/homework-day1&2/变色按钮/项目笔记.md',
+              '/project/baiduTrain/homework-day1&2/用HTML实现信件demo/项目笔记.md',
+              '/project/baiduTrain/homework-day1&2/实现loading动画/项目笔记.md',
+              '/project/baiduTrain/homework-day1&2/记事本/项目笔记.md',
+              '/project/baiduTrain/homework-day1&2/响应式设计demo/项目笔记.md',
             ]
           }
         ]
