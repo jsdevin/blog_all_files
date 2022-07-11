@@ -1,26 +1,21 @@
 <template><div><h1 id="promise-是异步编程的一种解决方案" tabindex="-1"><a class="header-anchor" href="#promise-是异步编程的一种解决方案" aria-hidden="true">#</a> Promise 是异步编程的一种解决方案</h1>
-<div align=center>
-<img src="https://cdn.jsdelivr.net/gh/DevinLin000/imgBed/img/202203061622797.png" width="60%" height="50%"/>
-</div>
-<div align=center>
-<img src="https://cdn.jsdelivr.net/gh/DevinLin000/imgBed/img/202203061622412.png" width="60%" height="50%"/>
-</div>
+<p><img src="https://cdn.jsdelivr.net/gh/DevinLin000/imgBed/img/202203061622797.png" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/DevinLin000/imgBed/img/202203061622412.png" alt=""></p>
 <h1 id="promise初体验" tabindex="-1"><a class="header-anchor" href="#promise初体验" aria-hidden="true">#</a> Promise初体验</h1>
 <ul>
 <li>一个resolve()对应一个then()，resolve()是代表函数，实质上还是得靠then()，可以说resolve()是形式函数，then()是执行函数。这样子做的话，会使得逻辑十分清晰，而且可以避免进入回调地狱。
 <ul>
-<li>如果是多次嵌套，可以在then()函数中return下一次的new Promise()函数，在then()函数外执行下一次的then()函数。</li>
+<li>
+<p>如果是多次嵌套，可以在then()函数中return下一次的new Promise()函数，在then()函数外执行下一次的then()函数。
+<img src="https://cdn.jsdelivr.net/gh/DevinLin000/imgBed/img/202203061625623.png" alt=""></p>
+</li>
+<li>
+<p>失败的时候调用reject，reject()对应的函数是catch()</p>
+</li>
 </ul>
 </li>
 </ul>
-<div align=center>
-<img src="https://cdn.jsdelivr.net/gh/DevinLin000/imgBed/img/202203061625623.png" width="60%" height="50%"/>
-</div>
-<pre><code>- 失败的时候调用reject，reject()对应的函数是catch()
-</code></pre>
-<div align=center>
-<img src="https://cdn.jsdelivr.net/gh/DevinLin000/imgBed/img/202203061626985.png" width="60%" height="50%"/>
-</div>
+<p><img src="https://cdn.jsdelivr.net/gh/DevinLin000/imgBed/img/202203061626985.png" alt=""></p>
 <h1 id="promise-三种状态" tabindex="-1"><a class="header-anchor" href="#promise-三种状态" aria-hidden="true">#</a> Promise 三种状态</h1>
 <ul>
 <li>我们开发中有异步操作时，就可以给异步操作包装一个Promise</li>
@@ -44,23 +39,15 @@
 </li>
 <li>原版写法</li>
 </ul>
-<div align=center>
-<img src="https://cdn.jsdelivr.net/gh/DevinLin000/imgBed/img/202203061624727.png" width="60%" height="50%"/>
-</div>
+<p><img src="https://cdn.jsdelivr.net/gh/DevinLin000/imgBed/img/202203061624727.png" alt=""></p>
 <ul>
 <li>【简化版一】data代表了第一次setTimeout里面的resolve括号内的内容，后面的Promise.resolve是那一堆的简化写法。</li>
 </ul>
-<div align=center>
-<img src="https://cdn.jsdelivr.net/gh/DevinLin000/imgBed/img/202203061629306.png" width="60%" height="50%"/>
-</div>
+<p><img src="https://cdn.jsdelivr.net/gh/DevinLin000/imgBed/img/202203061629306.png" alt=""></p>
 <ul>
 <li>【简化版二】在简化版一 的基础上，更加简洁欸，直接把Promise.resolve 省略</li>
 </ul>
-<div align=center>
-<img src="https://cdn.jsdelivr.net/gh/DevinLin000/imgBed/img/202203061630692.png" width="60%" height="50%"/>
-</div>
+<p><img src="https://cdn.jsdelivr.net/gh/DevinLin000/imgBed/img/202203061630692.png" alt=""></p>
 <h1 id="promise-all-解决多次访问问题" tabindex="-1"><a class="header-anchor" href="#promise-all-解决多次访问问题" aria-hidden="true">#</a> Promise.all() 解决多次访问问题</h1>
-<div align=center>
-<img src="https://cdn.jsdelivr.net/gh/DevinLin000/imgBed/img/202203061630764.png" width="60%" height="50%"/>
-</div>
+<p><img src="https://cdn.jsdelivr.net/gh/DevinLin000/imgBed/img/202203061630764.png" alt=""></p>
 </div></template>

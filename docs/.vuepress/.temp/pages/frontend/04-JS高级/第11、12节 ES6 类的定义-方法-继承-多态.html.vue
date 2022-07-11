@@ -65,9 +65,7 @@ function Student() {
 <ul>
 <li>对象的 <strong>属性描述符</strong> 可以添加setter和getter函数的，类其实也是可以的：</li>
 </ul>
-<div align=center>
-<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/abcb119944f047ffbc41ae07ffa4e6c7~tplv-k3u1fbpfcp-zoom-1.image""" width="60%" height="50%"/>
-</div>
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/abcb119944f047ffbc41ae07ffa4e6c7~tplv-k3u1fbpfcp-zoom-1.image" alt=""></p>
 <h2 id="类的静态方法" tabindex="-1"><a class="header-anchor" href="#类的静态方法" aria-hidden="true">#</a> 类的静态方法</h2>
 <ul>
 <li>静态方法用于定义 直接使用类名来执行调用的方法，不需要有类的实例，使用static关键字来定义</li>

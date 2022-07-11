@@ -2,9 +2,7 @@
 <ul>
 <li>推荐通过 <strong>字面量形式</strong> 创建对象</li>
 </ul>
-<div align=center>
-<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b3fb8037595848379787189d42709e2f~tplv-k3u1fbpfcp-zoom-1.image""" width="60%" height="50%"/>
-</div>
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b3fb8037595848379787189d42709e2f~tplv-k3u1fbpfcp-zoom-1.image" alt=""></p>
 <h1 id="属性的控制" tabindex="-1"><a class="header-anchor" href="#属性的控制" aria-hidden="true">#</a> 属性的控制</h1>
 <h2 id="背景" tabindex="-1"><a class="header-anchor" href="#背景" aria-hidden="true">#</a> 背景</h2>
 <ul>
@@ -18,9 +16,7 @@
 <ul>
 <li>Object.defineProperty() 方法会直接在一个对象上定义一个新属性，或者修改一个对象的现有属性，并返回此对象。</li>
 </ul>
-<div align=center>
-<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/aec03e6c7db24d9a94a78804133179d4~tplv-k3u1fbpfcp-zoom-1.image""" width="60%" height="50%"/>
-</div>
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/aec03e6c7db24d9a94a78804133179d4~tplv-k3u1fbpfcp-zoom-1.image" alt=""></p>
 <ul>
 <li>
 <p>可接收三个参数：</p>
@@ -44,9 +40,7 @@
 <ul>
 <li>属性描述符分为两类，一类是 <strong>数据</strong> 属性描述符，另一类是 <strong>存取</strong>属性描述符。</li>
 </ul>
-<div align=center>
-<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/52e9e857df7d4e43aa2ef2ecb7cf3d01~tplv-k3u1fbpfcp-zoom-1.image""" width="60%" height="50%"/>
-</div>
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/52e9e857df7d4e43aa2ef2ecb7cf3d01~tplv-k3u1fbpfcp-zoom-1.image" alt=""></p>
 <h4 id="数据属性描述符" tabindex="-1"><a class="header-anchor" href="#数据属性描述符" aria-hidden="true">#</a> 数据属性描述符</h4>
 <ul>
 <li>数据属性描述符有四个特性：</li>
@@ -86,9 +80,7 @@
 <ul>
 <li>数据属性描述符 的测试代码</li>
 </ul>
-<div align=center>
-<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cd7b55171aa64a108d23ebc004cf49cf~tplv-k3u1fbpfcp-zoom-1.image""" width="60%" height="50%"/>
-</div>
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cd7b55171aa64a108d23ebc004cf49cf~tplv-k3u1fbpfcp-zoom-1.image" alt=""></p>
 <h4 id="存取属性描述符" tabindex="-1"><a class="header-anchor" href="#存取属性描述符" aria-hidden="true">#</a> 存取属性描述符</h4>
 <ul>
 <li>存储属性描述符有四个特性：</li>
@@ -122,16 +114,12 @@
 <ul>
 <li>存储属性描述符 的测试代码</li>
 </ul>
-<div align=center>
-<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/97ea64e3607042378a87b4c0dc8bfc32~tplv-k3u1fbpfcp-zoom-1.image""" width="60%" height="50%"/>
-</div>
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/97ea64e3607042378a87b4c0dc8bfc32~tplv-k3u1fbpfcp-zoom-1.image" alt=""></p>
 <h3 id="object-defineproperties-—-同时定义多个属性" tabindex="-1"><a class="header-anchor" href="#object-defineproperties-—-同时定义多个属性" aria-hidden="true">#</a> Object.defineProperties () — 同时定义多个属性</h3>
 <ul>
 <li>Object.defineProperties() 方法直接在一个对象上定义** 多个** 新的属性或修改现有属性，并且返回该对象。</li>
 </ul>
-<div align=center>
-<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2cee36ff22c545488a52617e43c989eb~tplv-k3u1fbpfcp-zoom-1.image""" width="60%" height="50%"/>
-</div>
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2cee36ff22c545488a52617e43c989eb~tplv-k3u1fbpfcp-zoom-1.image" alt=""></p>
 <h1 id="对象方法的补充" tabindex="-1"><a class="header-anchor" href="#对象方法的补充" aria-hidden="true">#</a> 对象方法的补充</h1>
 <ul>
 <li>获取对象的属性描述符：
@@ -245,9 +233,7 @@ new Person //这里还会返回一个对象c
 </ul>
 </li>
 </ul>
-<div align=center>
-<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a3b6fc4e9f934b4eb6a05b1995cca58d~tplv-k3u1fbpfcp-zoom-1.image""" width="60%" height="50%"/>
-</div>
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a3b6fc4e9f934b4eb6a05b1995cca58d~tplv-k3u1fbpfcp-zoom-1.image" alt=""></p>
 <h2 id="constructor属性" tabindex="-1"><a class="header-anchor" href="#constructor属性" aria-hidden="true">#</a> constructor属性</h2>
 <ul>
 <li>默认情况下原型上都会添加一个属性叫做constructor，这个constructor指向当前的函数对象</li>

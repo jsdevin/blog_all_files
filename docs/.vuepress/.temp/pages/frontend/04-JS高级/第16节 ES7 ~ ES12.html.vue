@@ -276,10 +276,8 @@ console.log(guangDong?.zhanJiang?.potou?.height)
 </li>
 <li>那么在ES11中对获取全局对象进行了统一的规范：globalThis</li>
 </ul>
-<div align=center>
-<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e260a98735db4fdd9d8e62612107f80b~tplv-k3u1fbpfcp-zoom-1.image""" width="60%" height="50%"/>
-</div>
-## for..in标准化
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e260a98735db4fdd9d8e62612107f80b~tplv-k3u1fbpfcp-zoom-1.image" alt=""></p>
+<h2 id="for-in标准化" tabindex="-1"><a class="header-anchor" href="#for-in标准化" aria-hidden="true">#</a> for..in标准化</h2>
 <ul>
 <li>在ES11之前，虽然很多浏览器支持for...in来遍历对象类型，但是并没有被ECMA标准化.</li>
 <li>在ES11中，对其进行了标准化，for...in是用于<strong>遍历对象的key</strong>的：</li>
@@ -323,26 +321,22 @@ obj = null
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
 <li>结果：</li>
 </ul>
-<div align=center>
-<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cf884240941d427f95eaed051f329ecc~tplv-k3u1fbpfcp-zoom-1.image""" width="60%" height="50%"/>
-</div>
-## 弱引用 WeakRefs
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cf884240941d427f95eaed051f329ecc~tplv-k3u1fbpfcp-zoom-1.image" alt=""></p>
+<h2 id="弱引用-weakrefs" tabindex="-1"><a class="header-anchor" href="#弱引用-weakrefs" aria-hidden="true">#</a> 弱引用 WeakRefs</h2>
 <ul>
 <li>如果我们默认将一个对象赋值给另外一个引用，那么这个引用是一个强引用：</li>
 </ul>
 <div class="language-JavaScript ext-JavaScript line-numbers-mode"><pre v-pre class="language-JavaScript"><code>let obj = {name: 'devin'}
 let info = obj //强引用。将obj设为null时不会清理
 
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div align=center>
-<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3f8acef862ce46bc818af6745def642d~tplv-k3u1fbpfcp-zoom-1.image""" width="60%" height="50%"/>
-</div>
-- 如果我们希望是一个弱引用的话，可以使用WeakRef
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3f8acef862ce46bc818af6745def642d~tplv-k3u1fbpfcp-zoom-1.image" alt=""></p>
+<ul>
+<li>如果我们希望是一个弱引用的话，可以使用WeakRef</li>
+</ul>
 <div class="language-JavaScript ext-JavaScript line-numbers-mode"><pre v-pre class="language-JavaScript"><code>let obj = {name: 'devin'}
 let info = new WeakRef(obj) //弱引用。将obj设为null时，info也会被GC清理。
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><div align=center>
-<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dd4346a091254c0e9e35d173614e07af~tplv-k3u1fbpfcp-zoom-1.image""" width="60%" height="50%"/>
-</div>
-## 运算符的语法糖 logical assignment operators
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dd4346a091254c0e9e35d173614e07af~tplv-k3u1fbpfcp-zoom-1.image" alt=""></p>
+<h2 id="运算符的语法糖-logical-assignment-operators" tabindex="-1"><a class="header-anchor" href="#运算符的语法糖-logical-assignment-operators" aria-hidden="true">#</a> 运算符的语法糖 logical assignment operators</h2>
 <ul>
 <li>准备知识介绍，这个看懂了，后面直接理解了<div class="language-JavaScript ext-JavaScript line-numbers-mode"><pre v-pre class="language-JavaScript"><code>// 不使用语法糖
 let n = 0

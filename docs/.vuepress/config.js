@@ -9,6 +9,21 @@ module.exports = {
     logo: 'https://img.tt98.com/d/file/biaoqing/20191107/12.gif',
     navbar: [
       {
+        text: '百度前端训练营作品',
+        children: [
+          {
+            text: '百度前端训练营',
+            children: [
+              /project/baiduTrain/homework-day1&2/用HTML实现信件demo/项目笔记.md,
+              /project/baiduTrain/homework-day1&2/实现loading动画/项目笔记.md,
+              /project/baiduTrain/homework-day1&2/记事本/项目笔记.md,
+              /project/baiduTrain/homework-day1&2/响应式设计demo/项目笔记.md,
+              /project/baiduTrain/homework-day1&2//项目笔记.md,
+            ]
+          }
+        ]
+      },
+      {
         text: '入门前端',
         children: [
           {
@@ -19,7 +34,6 @@ module.exports = {
               '/frontend/02-CSS/CSS_Flex布局',
               '/frontend/03-JS基础/JS基础扫盲',
               '/frontend/03-JS基础/JS常见问题-ES6',
-              '/frontend/04-JS高级/第00节-JS高级目录',
               '/frontend/05-Vue2、Vue3/vue2/Vue2概览',
               '/frontend/05-Vue2、Vue3/vue3(基于vue2)/vue3(基于vue2学习)',
               '/frontend/06-promise、axios、webpack、tabbar/Promise',
@@ -30,6 +44,10 @@ module.exports = {
             ]
           }
         ]
+      },
+      {
+        text: 'JS高级',
+        link: 'https://github.com/jsdevin/Study-notes/tree/main/04-JS%E9%AB%98%E7%BA%A7'
       },
       {
         text: '进击前端',
@@ -101,7 +119,6 @@ module.exports = {
             '/frontend/02-CSS/CSS_Flex布局',
             '/frontend/03-JS基础/JS基础扫盲',
             '/frontend/03-JS基础/JS常见问题-ES6',
-            '/frontend/04-JS高级/第00节-JS高级目录',
             '/frontend/05-Vue2、Vue3/vue2/Vue2概览',
             '/frontend/05-Vue2、Vue3/vue3(基于vue2)/vue3(基于vue2学习)',
             '/frontend/06-promise、axios、webpack、tabbar/Promise',
@@ -143,7 +160,7 @@ module.exports = {
             // '/interview/JS篇/',
           ]
         }
-      ],
+      ]
     },
   }),
 }

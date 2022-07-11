@@ -187,10 +187,10 @@ foo(obj) //结果：devin 13。 //调用的时候还是以对象整体作为参�
 <ul>
 <li>在ES6之前，只有两种作用域。全局作用域和函数作用域。</li>
 </ul>
-<div align=center>
-<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/386f7cb47da04aa48ee30a9703dd99a2~tplv-k3u1fbpfcp-zoom-1.image""" width="60%" height="50%"/>
-</div>
-- 在ES6之前，放到一个大括号中定义的变量，外面是可以访问的：
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/386f7cb47da04aa48ee30a9703dd99a2~tplv-k3u1fbpfcp-zoom-1.image" alt=""></p>
+<ul>
+<li>在ES6之前，放到一个大括号中定义的变量，外面是可以访问的：</li>
+</ul>
 <div class="language-JavaScript ext-JavaScript line-numbers-mode"><pre v-pre class="language-JavaScript"><code>{
   var foo = 'test'
 }

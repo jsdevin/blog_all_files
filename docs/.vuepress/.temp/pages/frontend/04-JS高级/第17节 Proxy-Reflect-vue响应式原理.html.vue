@@ -100,9 +100,7 @@ console.log('name' in objProxy) // false
 
 
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="其它方法" tabindex="-1"><a class="header-anchor" href="#其它方法" aria-hidden="true">#</a> 其它方法</h3>
-<div align=center>
-<img src="https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202202121236867.png""" width="60%" height="50%"/>
-</div>
+<p><img src="https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202202121236867.png" alt=""></p>
 <h3 id="construct和apply" tabindex="-1"><a class="header-anchor" href="#construct和apply" aria-hidden="true">#</a> construct和apply</h3>
 <ul>
 <li>construct和apply捕获器方法的作用对象是函数。</li>
@@ -180,9 +178,7 @@ Arguments(2) [Array(2), Proxy, callee: ƒ, Symbol(Symbol.iterator): ƒ]
 <ul>
 <li>将对原对象的操作，都修改为Reflect方法来操作就行了。</li>
 </ul>
-<div align=center>
-<img src="https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202202121348517.png""" width="60%" height="50%"/>
-</div>
+<p><img src="https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202202121348517.png" alt=""></p>
 <h3 id="receiver的作用" tabindex="-1"><a class="header-anchor" href="#receiver的作用" aria-hidden="true">#</a> Receiver的作用</h3>
 <ul>
 <li>我们发现在使用getter、setter的时候有一个receiver的参数，它的作用是什么呢？
@@ -192,10 +188,8 @@ Arguments(2) [Array(2), Proxy, callee: ƒ, Symbol(Symbol.iterator): ƒ]
 </li>
 <li>我们来看这样的一个对象：这里的<strong>receiver == objProxy</strong></li>
 </ul>
-<div align=center>
-<img src="https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202202121426200.png""" width="60%" height="50%"/>
-</div>
-### Reflect的construct
+<p><img src="https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202202121426200.png" alt=""></p>
+<h3 id="reflect的construct" tabindex="-1"><a class="header-anchor" href="#reflect的construct" aria-hidden="true">#</a> Reflect的construct</h3>
 <ul>
 <li>作用：执行的是A函数的逻辑，单创建出来的对象确实B类型的。</li>
 <li>第一个参数： 执行的逻辑函数</li>
@@ -218,9 +212,7 @@ const teacher1 = Reflect.construct(Student, ['devin', '2222'], Teacher)
 
 console.log(teacher1) // Teacher {name: 'devin', age: '2222'}
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="reflect常见的方法" tabindex="-1"><a class="header-anchor" href="#reflect常见的方法" aria-hidden="true">#</a> Reflect常见的方法</h3>
-<div align=center>
-<img src="https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202202121436950.png""" width="60%" height="50%"/>
-</div>
-# 响应式
+<p><img src="https://cdn.jsdelivr.net/gh/jsdevin/imgBed/img/202202121436950.png" alt=""></p>
+<h1 id="响应式" tabindex="-1"><a class="header-anchor" href="#响应式" aria-hidden="true">#</a> 响应式</h1>
 <h2 id="先跳过这个-有点混乱-学完js高级再回来学习这个。ppt第17节-视频也是第17节" tabindex="-1"><a class="header-anchor" href="#先跳过这个-有点混乱-学完js高级再回来学习这个。ppt第17节-视频也是第17节" aria-hidden="true">#</a> 先跳过这个，有点混乱，学完JS高级再回来学习这个。ppt第17节，视频也是第17节</h2>
 </div></template>
