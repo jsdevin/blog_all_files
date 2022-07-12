@@ -14,11 +14,10 @@ module.exports = {
           {
             text: '百度前端训练营',
             children: [
-              '/project/baiduTrain/homework-day1_day2/变色按钮/项目笔记.md',
-              '/project/baiduTrain/homework-day1_day2/用HTML实现信件demo/项目笔记.md',
-              '/project/baiduTrain/homework-day1_day2/实现loading动画/项目笔记.md',
-              '/project/baiduTrain/homework-day1_day2/记事本/项目笔记.md',
-              '/project/baiduTrain/homework-day1_day2/响应式设计demo/项目笔记.md',
+              '/project/baiduTrain/homework-day2/用HTML实现信件demo/项目笔记.md',
+              '/project/baiduTrain/homework-day2/实现loading动画/项目笔记.md',
+              '/project/baiduTrain/homework-day2/记事本/项目笔记.md',
+              '/project/baiduTrain/homework-day2/响应式设计demo/项目笔记.md',
               '/project/baiduTrain/homework-day3/用JS数组生成HTML字符/项目笔记.md',
               '/project/baiduTrain/homework-day3/任意层级的文件树数组转换为字符串/项目笔记.md',
               '/project/baiduTrain/homework-day3/实现简单的深浅拷贝/项目笔记.md',
@@ -168,11 +167,10 @@ module.exports = {
         }
       ],
       '/project/baiduTrain/': [
-        '/project/baiduTrain/homework-day1_day2/变色按钮/项目笔记.md',
-        '/project/baiduTrain/homework-day1_day2/用HTML实现信件demo/项目笔记.md',
-        '/project/baiduTrain/homework-day1_day2/实现loading动画/项目笔记.md',
-        '/project/baiduTrain/homework-day1_day2/记事本/项目笔记.md',
-        '/project/baiduTrain/homework-day1_day2/响应式设计demo/项目笔记.md',
+        '/project/baiduTrain/homework-day2/用HTML实现信件demo/项目笔记.md',
+        '/project/baiduTrain/homework-day2/实现loading动画/项目笔记.md',
+        '/project/baiduTrain/homework-day2/记事本/项目笔记.md',
+        '/project/baiduTrain/homework-day2/响应式设计demo/项目笔记.md',
         '/project/baiduTrain/homework-day3/用JS数组生成HTML字符/项目笔记.md',
         '/project/baiduTrain/homework-day3/任意层级的文件树数组转换为字符串/项目笔记.md',
         '/project/baiduTrain/homework-day3/实现简单的深浅拷贝/项目笔记.md',
