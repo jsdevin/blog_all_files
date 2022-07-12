@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>document</title>
+</head>
+
+<body>
+  <script>
+    const arr = ["index.html", "js", ["index.js"], "css", ["index.css"]];
+
+    // 返回数组代表的文件树 HTML
+    function toHTML(arr) {
+      let res = "";
+      let i = 0;
+      const len = arr.length;
+      while (i < len) {
+        // 当前项是否是文件夹
+        if (i + 1 < len && typeof arr[i + 1] !== "string") { // 有下一项，并且下一项是数组
+          const subArr = arr[i + 1]; // 把下一项保存起来
+          res += "<li>" + arr[i] + toHTML(subArr) + "</li>"; // 递归, toHTML(subArr)会返回一个ul>li
+          i += 2; // 跳过是数组的那个项
+        }
+        // 是文件
+        else {
+          res += "<li>" + arr[i] + "</li>";
+          i += 1;
+        }
+      }
+      return "<ul>" + res + "</ul>";
+    }
+
+    document.body.innerHTML = toHTML(arr);
+    // console.log(toHTML(arr))
+    // document.body.innerHTML = toHTML(["root", arr]);
+    // document.body.innerHTML = toHTML(["root", arr, "root", arr]);
+
+  </script>
+</body>
+
+</html>

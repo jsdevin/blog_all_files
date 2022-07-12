@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>document</title>
+  <style>
+    /* #Todo {
+      width: 200px;
+    } */
+  </style>
+  <script>
+    window.onload = function () {
+      // 获取添加按钮
+      let addBtn = document.getElementById('btn1')
+      addBtn.onclick = function () {
+        // 获取输入框输入的内容
+        let content = document.getElementById('input1').value
+        if (content === '') {
+          alert('任务内容不能为空')
+        } else {
+          // 创建节点tr>td
+          let tr = document.createElement('tr')
+          let td_work = document.createElement('td')
+          let td_done = document.createElement('td')
+          let td_del = document.createElement('td')
+          // 给td节点赋值
+          td_work.innerHTML = content
+          td_done.innerHTML = "<input type='checkbox'class='addInput'/>"
+          td_del.innerHTML = '<button>删除</button>'
+          // 将td节点添加到父节点tr中
+          tr.appendChild(td_work)
+          tr.appendChild(td_done)
+          tr.appendChild(td_del)
+          // 将tr节点添加到父节点tbody中
+          let tbody = document.getElementById('todoBody')
+          tbody.appendChild(tr)
+          // JSON.stringify(tbody)
+          window.localStorage(JSON.stringify(tbody))
+
+          // 删除按钮的逻辑
+          td_del.onclick = function () {
+            // tr.remove()
+            // 先判断checkbox有没有被选中
+            let addInput = document.getElementsByClassName('addInput')
+            // console.log(addInput[0].checked)
+            let i = 0
+            while (i < addInput.length) {
+              if (addInput[i].checked) {
+                tr.remove()
+              }
+              i++
+            }
+          }
+        }
+      }
+
+
+    }
+  </script>
+</head>
+
+<body>
+  <input id="input1" type="text">
+  <button id="btn1">添加任务</button>
+  <p>--------TodoList-----------</p>
+  <table border="1">
+    <thead>
+      <tr>
+        <th id="Todo">任务</th>
+        <th id="select">选中</th>
+        <th>删除</th>
+      </tr>
+    </thead>
+    <tbody id="todoBody">
+    </tbody>
+    <tbody></tbody>
+  </table>
+</body>
+
+</html>

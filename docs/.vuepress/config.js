@@ -19,6 +19,12 @@ module.exports = {
               '/project/baiduTrain/homework-day1&2/实现loading动画/项目笔记.md',
               '/project/baiduTrain/homework-day1&2/记事本/项目笔记.md',
               '/project/baiduTrain/homework-day1&2/响应式设计demo/项目笔记.md',
+              '/project/baiduTrain/homework-day3/用JS数组生成HTML字符/项目笔记.md',
+              '/project/baiduTrain/homework-day3/任意层级的文件树数组转换为字符串/项目笔记.md',
+              '/project/baiduTrain/homework-day3/实现简单的深浅拷贝/项目笔记.md',
+              '/project/baiduTrain/homework-day3/数字时钟/项目笔记.md',
+              '/project/baiduTrain/homework-day3/ToDoList/项目笔记.md',
+              '/project/baiduTrain/homework-day4/实现添加一行数据到列表/项目笔记.md',
             ]
           }
         ]
@@ -160,6 +166,19 @@ module.exports = {
             // '/interview/JS篇/',
           ]
         }
+      ],
+      '/project/baiduTrain/': [
+        '/project/baiduTrain/homework-day1&2/变色按钮/项目笔记.md',
+        '/project/baiduTrain/homework-day1&2/用HTML实现信件demo/项目笔记.md',
+        '/project/baiduTrain/homework-day1&2/实现loading动画/项目笔记.md',
+        '/project/baiduTrain/homework-day1&2/记事本/项目笔记.md',
+        '/project/baiduTrain/homework-day1&2/响应式设计demo/项目笔记.md',
+        '/project/baiduTrain/homework-day3/用JS数组生成HTML字符/项目笔记.md',
+        '/project/baiduTrain/homework-day3/任意层级的文件树数组转换为字符串/项目笔记.md',
+        '/project/baiduTrain/homework-day3/实现简单的深浅拷贝/项目笔记.md',
+        '/project/baiduTrain/homework-day3/数字时钟/项目笔记.md',
+        '/project/baiduTrain/homework-day3/ToDoList/项目笔记.md',
+        '/project/baiduTrain/homework-day4/实现添加一行数据到列表/项目笔记.md',
       ]
     },
   }),
