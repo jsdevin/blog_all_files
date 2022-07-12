@@ -16,7 +16,7 @@ cd ../distCopy/dist
 # git初始化，每次初始化不影响推送
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m '添加域名'
 git branch -M main
 
 # 如果你想要部署到 https://USERNAME.github.io
