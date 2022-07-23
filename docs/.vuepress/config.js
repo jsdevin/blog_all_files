@@ -24,6 +24,11 @@ module.exports = {
               '/project/baiduTrain/homework-day3/数字时钟/项目笔记.md',
               '/project/baiduTrain/homework-day3/ToDoList/项目笔记.md',
               '/project/baiduTrain/homework-day4/实现添加一行数据到列表/项目笔记.md',
+              '/project/baiduTrain/EndWork/01-学习数据劫持/使用Proxy实现数据劫持.md',
+              '/project/baiduTrain/EndWork/02-学习发布订阅模式/发布订阅模式.md',
+              '/project/baiduTrain/EndWork/03-学习数据单向绑定/单向绑定.md',
+              '/project/baiduTrain/EndWork/04-学习双向绑定/双向绑定.md',
+              '/project/baiduTrain/EndWork/README.md',
             ]
           }
         ]
@@ -177,6 +182,11 @@ module.exports = {
         '/project/baiduTrain/homework-day3/数字时钟/项目笔记.md',
         '/project/baiduTrain/homework-day3/ToDoList/项目笔记.md',
         '/project/baiduTrain/homework-day4/实现添加一行数据到列表/项目笔记.md',
+        '/project/baiduTrain/EndWork/01-学习数据劫持/使用Proxy实现数据劫持.md',
+        '/project/baiduTrain/EndWork/02-学习发布订阅模式/发布订阅模式.md',
+        '/project/baiduTrain/EndWork/03-学习数据单向绑定/单向绑定.md',
+        '/project/baiduTrain/EndWork/04-学习双向绑定/双向绑定.md',
+        '/project/baiduTrain/EndWork/README.md',
       ]
     },
   }),
